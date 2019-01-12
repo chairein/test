@@ -4,12 +4,7 @@
 21wwwq
 github.com add
 eclipse  add
-
-
 vim resources/views/index/common/index_base.blade.php 
-
-
-
 echo >/var/log/wtmp
 
 echo >/var/log/btmp
@@ -22,17 +17,9 @@ echo > /var/log/messages
 
 echo > /var/log/xferlog
 
-
-
 <li style="background-image:url({{ url($banner->bannerpc_cover) }})" data-load="yes">
                                 <a href="http://www.gzchengguo.cn/" class="link"></a>
                         </li>
-
-
-
-
-
-
 
 ul>
                  @foreach($bannerpcs as $banner)
